@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <ul>
+          <a href="index.html">Головна</a>
+          <a href="services.html">Послуги</a>
+          <a href="prices.html">Ціни</a>
+          <a href="specialist.html">Фахівці</a>
+          <a href="contact.html">Контакти</a>
+        </ul>
+      </div>
+    </header>
+    <section class="contacts">
+      <h2>Контакти</h2>
+      <div class="contact-info">
+        <p>
+          <strong>Адреса:</strong> вул. Назва вулиці, місто, країна, Поштовий
+          індекс
+        </p>
+        <p><strong>Телефони:</strong> +380123456789, +380987654321</p>
+        <p><strong>Email:</strong> beAutySalon@gmail.com</p>
+        <p>
+          <strong>Соціальні мережі:</strong>
+          <a href="https://www.facebook.com/">Facebook</a>,
+          <a href="https://www.instagram.com/">Instagram</a>,
+          <a href="https://twitter.com/">Twitter</a>
+        </p>
+      </div>
+      <div class="contact-form">
+        <h3>Зв'яжіться з нами</h3>
+        <form action="submit.php" method="post">
+          <label for="name">Ім'я:</label><br />
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="message">Повідомлення:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea
+          ><br />
+          <input type="submit" value="Відправити" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
